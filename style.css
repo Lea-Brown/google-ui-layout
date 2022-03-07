@@ -57,8 +57,28 @@ body {
 /* main body */
 .body {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
-  height: 290px;
-  flex-shrink: 1;
+}
+
+.blank {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+/* bottom */
+.uk {
+  padding: 15px 30px;
+}
+
+.carbon {
+  padding: 15px;
+  text-decoration: none;
+  color: #bdc1c6;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
 }
