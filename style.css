@@ -53,3 +53,12 @@ body {
 .top_right .material-icons {
   margin-left: 20px;
 }
+
+/* main body */
+.body {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 290px;
+  flex-shrink: 1;
+}
