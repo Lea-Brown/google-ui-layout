@@ -64,6 +64,8 @@ body {
 .blank {
   flex-grow: 1;
   flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 /* bottom */
@@ -81,4 +83,19 @@ body {
 
 .bottom a:hover {
   text-decoration: underline;
+}
+
+.very-bottom a {
+  text-decoration: none;
+  color: #bdc1c6;
+}
+
+.very-bottom a:hover {
+  text-decoration: underline;
+}
+
+.very-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
